@@ -31,6 +31,10 @@ body {
   position: relative;
   overflow: hidden;
 }
+body {
+    overflow-y: auto;   /* enables vertical scroll */
+    overflow-x: hidden; /* hides horizontal scroll */
+}
 
 /* Improved backdrop with darker overlay */
 body::before {
@@ -716,4 +720,5 @@ window.deleteWorkout = deleteWorkout;
 window.selectUser = selectUser;
     </script>
 </body>
+
 </html>
