@@ -31,10 +31,7 @@ body {
   position: relative;
   overflow: hidden;
 }
-body {
-    overflow-y: auto;   /* enables vertical scroll */
-    overflow-x: hidden; /* hides horizontal scroll */
-}
+
 
 /* Improved backdrop with darker overlay */
 body::before {
@@ -162,6 +159,10 @@ header, main, footer {
     .users-grid{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
 }
 @keyframes gradientShift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+        body {
+    overflow-y: auto;   /* enables vertical scroll */
+    overflow-x: hidden; /* hides horizontal scroll */
+}
     </style>
 </head>
 <body>
@@ -722,3 +723,4 @@ window.selectUser = selectUser;
 </body>
 
 </html>
+
